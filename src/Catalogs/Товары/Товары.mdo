@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1684bdab-9059-432e-8ab6-2a3bbe4cccf1">
+  <producedTypes>
+    <objectType typeId="a6833fd0-34a5-4f62-8101-294d0a2cda07" valueTypeId="87f2cafc-2fe2-4055-aba7-b62cc2c3edd6"/>
+    <refType typeId="f6e6994c-0569-4f50-93a0-e02034c46a18" valueTypeId="3934d171-e12f-47e3-b94d-daa6b58a484b"/>
+    <selectionType typeId="75949ae9-9cce-47c9-8d39-781206e5d6f2" valueTypeId="5f78dd3d-c779-432e-b98e-fc35ca211796"/>
+    <listType typeId="a50616a8-f805-4d33-a06e-374f063c4a3c" valueTypeId="045ab9e9-7e60-49c4-bcfc-bf8cb4aeec13"/>
+    <managerType typeId="ab9a519a-716d-47a4-bad0-aa10e845b634" valueTypeId="a5d27909-29b8-47b0-844e-acfcbcbbaae9"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0e6d3c98-e963-442e-9924-f6d718a5ada8">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a59a2d90-60a4-4dd5-be09-ef652b000e2c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
